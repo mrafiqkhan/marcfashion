@@ -392,59 +392,59 @@
 
   // loadProducts();
 
-  // saveProducts([
-  //   {
-  //     title: "Product 1",
-  //     price: 10,
-  //     description: "Piqué Biker Jacket",
-  //     image: "img/product/product-2.jpg",
-  //     category: "clothing",
-  //     quantity: 10,
-  //     rating: 4,
-  //     brand: "Gucci",
-  //     product_meta: "sale",
-  //   },
-  //   {
-  //     title: "Multi-pocket Chest Bag",
-  //     price: 20,
-  //     description: "Product 2 description",
-  //     image: "img/product/product-3.jpg",
-  //     category: "shoes",
-  //     quantity: 20,
-  //     rating: 5,
-  //     brand: "Chanel",
-  //     product_meta: "",
-  //   },
-  //   {
-  //     title: "Diagonal Textured Cap",
-  //     price: 30,
-  //     description: "Product 3 description",
-  //     image: "img/product/product-4.jpg",
-  //     category: "bags",
-  //     quantity: 30,
-  //     rating: 3,
-  //     brand: "Chanel",
-  //     product_meta: "new",
-  //   },
-  //   {
-  //     title: "Lether Backpack",
-  //     price: 40,
-  //     description: "Product 4 description",
-  //     image: "img/product/product-5.jpg",
-  //     category: "bags",
-  //     quantity: 40,
-  //     rating: 2,
-  //     brand: "Louis Vuitton",
-  //     product_meta: "",
-  //   },
-  // ]);
+  saveProducts([
+    {
+      title: "Product 1",
+      price: 10,
+      description: "Piqué Biker Jacket",
+      image: "img/product/product-2.jpg",
+      category: "clothing",
+      quantity: 10,
+      rating: 4,
+      brand: "Gucci",
+      product_meta: "sale",
+    },
+    {
+      title: "Multi-pocket Chest Bag",
+      price: 20,
+      description: "Product 2 description",
+      image: "img/product/product-3.jpg",
+      category: "shoes",
+      quantity: 20,
+      rating: 5,
+      brand: "Chanel",
+      product_meta: "",
+    },
+    {
+      title: "Diagonal Textured Cap",
+      price: 30,
+      description: "Product 3 description",
+      image: "img/product/product-4.jpg",
+      category: "bags",
+      quantity: 30,
+      rating: 3,
+      brand: "Chanel",
+      product_meta: "new",
+    },
+    {
+      title: "Lether Backpack",
+      price: 40,
+      description: "Product 4 description",
+      image: "img/product/product-5.jpg",
+      category: "bags",
+      quantity: 40,
+      rating: 2,
+      brand: "Louis Vuitton",
+      product_meta: "",
+    },
+  ]);
 
-  // saveCategory("clothing");
-  // saveCategory("shoes");
-  // saveCategory("bags");
-  // saveBrand("Gucci");
-  // saveBrand("Chanel");
-  // saveBrand("Louis Vuitton");
+  saveCategory("clothing");
+  saveCategory("shoes");
+  saveCategory("bags");
+  saveBrand("Gucci");
+  saveBrand("Chanel");
+  saveBrand("Louis Vuitton");
 })(jQuery);
 function checkLoginStatus() {
   var current_session = JSON.parse(localStorage.getItem("current_user"));
